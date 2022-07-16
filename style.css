@@ -145,6 +145,7 @@ input:focus {
 }
 
 /* MEDIA QUERIES */
+/* Smaller Laptop */
 @media (max-width: 69em) {
   .logo {
     padding-left: 10rem;
@@ -162,6 +163,7 @@ input:focus {
     width: 90%;
   }
 }
+/* Biggest Tablet */
 @media (max-width: 58em) {
   .sub-text {
     font-size: 1.6rem;
@@ -174,6 +176,7 @@ input:focus {
   }
 }
 
+/* Bigger Tablet */
 @media (max-width: 50em) {
   body {
     height: 120vh;
@@ -195,6 +198,9 @@ input:focus {
     padding: 0rem 16rem;
     background: url("./images/hero-mobile.jpg");
     background-size: cover;
+    border-radius: 0;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
   }
   .text-container {
     grid-column: 1 / span 4;
@@ -207,11 +213,13 @@ input:focus {
     flex-direction: column;
   }
 }
+/* Big Tablet */
 @media (max-width: 38em) {
   .text-container {
     padding: 0rem 8rem;
   }
 }
+/* Mobile Phone */
 @media (max-width: 28em) {
   .text-container {
     padding: 0rem 4rem;
