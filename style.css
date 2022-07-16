@@ -15,6 +15,7 @@ html {
 
 body {
   font-family: "Josefin Sans", sans-serif;
+  height: 100%;
 }
 
 main {
@@ -135,6 +136,11 @@ input:focus {
   transition: opacity 0.3s ease-in-out;
 }
 
+footer {
+  margin-top: 6rem;
+  border: 2px solid red;
+}
+
 .attribution {
   font-size: 1.6rem;
   text-align: center;
@@ -170,6 +176,9 @@ input:focus {
     padding-right: 0;
     margin-bottom: 2rem;
   }
+  .lead-text {
+    line-height: 1.6;
+  }
   .email-container {
     width: 100%;
   }
@@ -177,11 +186,9 @@ input:focus {
 
 /* Bigger Tablet */
 @media (max-width: 50em) {
-  body {
-    height: 120vh;
-  }
   main {
     grid-template-rows: repeat(9, 1fr);
+    height: 120vh;
   }
   .logo {
     grid-column: 1 / span 2;
