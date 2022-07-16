@@ -14,7 +14,6 @@ html {
 }
 
 body {
-  height: 100vh;
   font-family: "Josefin Sans", sans-serif;
 }
 
@@ -22,7 +21,7 @@ main {
   display: grid;
   grid-template-columns: 1.4fr 1fr;
   grid-template-rows: repeat(6, 1fr);
-  height: 90%;
+  height: 100vh;
   color: hsl(0, 6%, 24%);
   margin-bottom: 3rem;
   background-image: url("./images/bg-pattern-desktop.svg");
