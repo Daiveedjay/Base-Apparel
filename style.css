@@ -283,7 +283,7 @@ footer {
   .sub-text {
     margin: 0;
     font-size: 1.4rem;
-    padding: 0 0.5rem;
+    padding: 0 2rem;
   }
   .error-icon {
     right: 30%;
@@ -296,5 +296,6 @@ footer {
 
   footer {
     margin: 0;
+    padding: 1rem 2rem;
   }
 }
